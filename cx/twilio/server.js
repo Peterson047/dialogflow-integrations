@@ -39,7 +39,7 @@ const listener = app.listen(process.env.PORT, () => {
 *  @return {JSON} 
 */
 const twilioToDetectIntent = (twilioReq) => {
-    const sessionId = twilioReq.body.To;
+    const sessionId = twilioReq.body.From;
     const sessionPath = sessionClient.projectLocationAgentSessionPath (
         process.env.PROJECT_ID,
         process.env.LOCATION,

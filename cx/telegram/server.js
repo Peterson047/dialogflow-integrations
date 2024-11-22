@@ -3,12 +3,12 @@
  * Add your service key to the current folder.
  * Uncomment and fill in these variables.
  */
-// const projectId = 'my-project';
-// const locationId = 'global';
-// const agentId = 'my-agent';
-// const languageCode = 'en'
-// const TELEGRAM_TOKEN='1234567898:ABCdfghTtaD8dfghdfgh45sdf65467M';
-// const SERVER_URL='https://example.com';
+const projectId = 'tvtem-gemini';
+const locationId = 'global';
+const agentId = '4947127a-f52a-4ebb-935a-598060472955';
+const languageCode = 'pt-BR'
+const TELEGRAM_TOKEN='7151118085:AAFXkXfTjwDaUKDByjk-HANWohUDsWB9w68';
+const SERVER_URL=' https://3dcd-200-245-172-130.ngrok-free.app';
 
 const structProtoToJson =
     require('../../botlib/proto_to_json.js').structProtoToJson;
